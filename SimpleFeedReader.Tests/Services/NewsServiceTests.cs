@@ -32,7 +32,7 @@ namespace SimpleFeedReader.Tests.Services
             List<NewsStoryViewModel> result =
                 await _newsService.GetNews(feedUrl);
 
-            // Assert touch
+            // Assert touch1
             Assert.False(result.Count > 0);
         }
        
